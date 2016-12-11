@@ -79,3 +79,16 @@ print(emp2)
 from employee import *
 ```
 
+1. Make a while loop that prints a menu:
+```python
+    1. Add Employee
+    2. Print Employees
+    3. Quit
+```
+that exits when the user selects 3.
+
+2. If the user selects 1, instantiate a new employee and them to a list of employees.
+
+3. If the user selects 2 use a for loop to print the list of employees.
+
+4. If the user selects 3, quit.
