@@ -52,15 +52,8 @@ class SS:
 
 3. Create a __str__ method that returns a string with all the employee information in a nicely formatted string.
 
-#### Create the module
-- put the code from this module in a file employee.py
+4. Test your code:
 
-### Create a new file employeedb.py
-
-- Import the employee module
-```python
-from employee import *
-```
 - Instantiate the employee class:
 ```python
 emp1 = Employee()
@@ -75,3 +68,14 @@ print(emp1)
 print('\n\n')
 print(emp2)
 ```
+
+#### Create the module
+- put the code from this module in a file employee.py
+
+### Create a new file employeedb.py
+
+- Import the employee module
+```python
+from employee import *
+```
+
