@@ -5,26 +5,27 @@ class SS:
     class InvalidSocial(Exception):
         pass
     def __init(self):
-        self.social = self.getss
+        self.social = self.get_social()
     
-    def validatess(self):
-        check that self.ss is valid
-        Anywhere that you find the ss is invalid raise self.InvalidSocial
+    def validate_ss(self, s):
+        check that s is valid social security number.
+        Anywhere that you find the s is invalid raise self.InvalidSocial
     
-    def getsocial(self):
-        self.ss = input("Social: ")
+    def get_social(self):
+        ss = input("Social: ")
         try
-            self.validatess()
+            self.validate_ss(ss)
         except InvalidSocial:
             print("Invalid SS, please try again\n")
-            self.getsocial()        
+            self.getsocial()  
+        self.social = ss
         
         
 ```
-- validate should check that a valid ss number has been put in. If not it should raise the InvalidSocial exception. Since InvaldSocial is inside the class you will have to call it with self.InvalidSocial.
+- validate_ss should check that a valid ss number has been put in. If not it should raise the InvalidSocial exception. Since InvaldSocial is inside the class you will have to call it with self.InvalidSocial.
 
 #### Create the module
-- put the code for this module in a file ss.py
+- put the code for this module in a file socialsecurity.py. Do NOT call any other variables socialsecurity, doing that will cause some interesting errors that will be hard to find.
 
 ### Create an employee module
 #### Create an employee class
