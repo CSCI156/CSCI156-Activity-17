@@ -2,7 +2,7 @@
 ##### Create a social security number class:
 ```python
 class SS:
-    class InvalidSocial(ValueError):
+    class InvalidSocial(Exception):
         pass
     def __init(self):
         self.social = self.getss
