@@ -18,7 +18,7 @@ class SS:
         except InvalidSocial:
             print("Invalid SS, please try again\n")
             self.getsocial()  
-        self.social = ss
+        return ss
         
         
 ```
