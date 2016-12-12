@@ -54,20 +54,12 @@ class SS:
 
 4. Test your code:
 
-- Instantiate the employee class:
+- Instantiate and print:
 ```python
 emp1 = Employee()
-```
-- Instantiate the employee class with
-```python
-emp2 = Employee('Jim', 'Bob', '10/22/14', 23.50, '045-23-3333')
-```
-- Print the employees
-```python
 print(emp1)
-print('\n\n')
-print(emp2)
 ```
+
 You will have to delete the test code for the next step.
 
 #### Create the module
