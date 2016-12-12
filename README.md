@@ -4,7 +4,7 @@
 class SS:
     class InvalidSocial(Exception):
         pass
-    def __init(self):
+    def __init__(self):
         self.social = self.get_social()
     
     def validate_ss(self, s):
