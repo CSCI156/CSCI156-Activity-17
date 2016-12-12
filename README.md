@@ -17,7 +17,7 @@ class SS:
             self.validate_ss(ss)
         except InvalidSocial:
             print("Invalid SS, please try again\n")
-            self.get_social()  
+            ss=self.get_social()  
         return ss
         
         
