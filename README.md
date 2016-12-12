@@ -31,7 +31,7 @@ class SS:
 #### Create an employee class
 1. Your first line of code should be 
     ```python
-       from ss import *
+       from socialsecurity import *
     ```
     (5 pts for a working import)
 2. Your class should have an __init__ method with an optional parameters for the employee information. (25 pts)
